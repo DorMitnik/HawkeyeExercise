@@ -1,0 +1,90 @@
+.task-container {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+  /* text-align: center; */
+}
+
+.task-name {
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: relative; */
+  width: 250px;
+  font-family: cursive;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.progress-bar {
+  margin-top: 2rem;
+  width: 500px;
+}
+.delete-task {
+  background: #db4437;
+  border-radius: 999px;
+  box-shadow: black 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-left: 1rem;
+}
+
+.check-box,
+.check-box-sub {
+  outline: max(2px, 0.15em) solid currentColor;
+  outline-offset: max(2px, 0.15em);
+  margin-left: 1rem;
+}
+
+.subtask-label {
+  margin-right: 15px;
+}
+
+.add-subtask-modal {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.description-text{
+    text-decoration: underline;
+}
+
+.sub-task{
+  background: #4285f4;
+  border-radius: 999px;
+  box-shadow: black 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-left: 1rem;
+}

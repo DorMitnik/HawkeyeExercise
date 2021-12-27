@@ -1,0 +1,27 @@
+html{
+  background-image: url("C:\Users\dormi\hawkeye_project\forntend-hawkeye\ToDo.jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  color: black;
+  margin-right: 17%;
+}
+
+.app-container{
+  margin-top: 1rem;
+  margin-left: 45%;
+}
+.headline{
+margin-left: 19%; 
+ text-decoration: underline;
+}
+
+.add-task-modal{
+  background-color: rgb(36, 36, 36);
+  color: white;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+

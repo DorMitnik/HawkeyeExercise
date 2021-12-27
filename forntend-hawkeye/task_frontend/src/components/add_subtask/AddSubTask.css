@@ -1,0 +1,21 @@
+.add-subtask-container {
+  background-color: transparent;
+  display: grid;
+  justify-content: center;
+  row-gap: 15px;
+  grid-template-columns: auto;
+  margin-bottom: 30px;
+}
+
+.add-subtask-container h1{
+    text-align: center;
+}
+
+.add-subtask-container input,textarea {
+    margin-left: 10px;
+  }
+
+.add-subtask-container label {
+  display: inline;
+}
+

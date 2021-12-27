@@ -1,0 +1,66 @@
+.add-task {
+  background: #4285f4;
+  border-radius: 999px;
+  box-shadow: black 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  width: 65%;
+  margin-top: 2%;
+  margin-left: -3%;
+}
+
+.add-task-container h1{
+    text-align: center;
+}
+
+.add-task-container input,textarea {
+    margin-left: 10px;
+  }
+
+.add-task-container label {
+  display: inline;
+}
+
+.add-task-container {
+  background-color: transparent;
+  display: grid;
+  justify-content: center;
+  row-gap: 15px;
+  grid-template-columns: auto;
+  margin-bottom: 30px;
+}
+.save-button{
+  background: #4285f4;
+  border-radius: 999px;
+  box-shadow: #4285f4 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  width:100%;
+  margin-top: 2%;
+}
